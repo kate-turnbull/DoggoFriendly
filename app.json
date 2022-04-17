@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Welcome to my passion project! I'm new to Perth and have brought my pupper Rocky with me. I'm teaching myself how to use React Native by coding an app that let's me know about all the doggo friendly walks, beaches, eateries and activities."
   }
 }
