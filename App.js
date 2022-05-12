@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, Image, SafeAreaView } from 'react-native';
+
+import List from './List';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Hello React Native!</Text>
-      <Image style={styles.image} source={require("./assets/DoggoFriendly.png")} />
+      <Text>Doggo Friendly!</Text>
+      <TouchableOpacity onPress={() => console.log("clicked on Rocky")}>
+        <Image style={styles.image} source={require("./assets/DoggoFriendly.png")} />
+      </TouchableOpacity>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
